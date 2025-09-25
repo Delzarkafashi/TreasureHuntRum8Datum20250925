@@ -1,12 +1,12 @@
 * {
     background-color: #f3f3f3;
     font-family: "Jersey 20", sans-serif;
-    color: blue;
+    color: #333333;
 }
 
 body {
     display: grid; 
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 
@@ -21,4 +21,32 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+}
+
+header {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+main {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+footer {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 600px;
+}
+
+a:visited: {
+    background-color: yellow;
 }
