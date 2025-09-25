@@ -14,7 +14,7 @@ När en skatt klickas på:
 Kontrollera att den inte redan är hittad (!treasure.classList.contains("found")).
 Markera skatten som hittad genom att lägga till klassen found.
 Öka räknaren foundCount och uppdatera texten på sidan.
-Visa ett meddelande: "Grattis! Du hittade en skatt!".
+Visa ett meddelande: "Grattis! Du hittade en skatt!" och gör det orden röd.
 När alla skatter har hittats:
 Stoppa timern med clearInterval(timer).
 Visa ett meddelande som berättar hur lång tid det tog att hitta alla skatter.
