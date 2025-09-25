@@ -38,15 +38,15 @@ footer {
     grid-row: 3 / 4;
 }
 
-.tresure, a {
+.tresure {
     color: #333333;
     text-decoration: none;
 }
 
-.tresure, a:hover {
+.tresure:hover{
     font-weight: 600px;
 }
 
-.tresure, a:visited {
+.tresure:visited {
     background-color: yellow;
 }
