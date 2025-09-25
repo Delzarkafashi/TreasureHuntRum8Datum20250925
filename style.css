@@ -65,8 +65,20 @@ padding: 50px 0 20px 0;
     color: inherit;
 }
 
-.tresure.found{
-    font-weight: 600px;
-    color: red;
-    font-weight: bold;
+.treasure {
+  cursor: pointer;
+  font-weight: normal;
+  color: inherit; 
+}
+
+.treasure.found {
+  color: red;     
+  font-weight: bold;
+}
+
+img {
+  margin: 10px;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 10px;
 }
