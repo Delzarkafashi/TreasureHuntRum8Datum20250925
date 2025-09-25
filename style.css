@@ -1,13 +1,17 @@
 * {
-    background-color: #f3f3f3;
+
     font-family: "Jersey 20", sans-serif;
-    color: #333333;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    background-color: #1b2735;
     display: grid; 
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #hud {
@@ -24,29 +28,42 @@ body {
 }
 
 header {
-    grid-column: span 3;
-    grid-row: 1 / 2;
+background-color: rgb(243, 243, 243, 0.5);
+padding: 50px;
+margin-top: 50px;
+
 }
 
 main {
-    grid-column: span 3;
-    grid-row: 2 / 3 ;
+background-color: rgb(243, 243, 243, 0.5);
+padding: 50px;
+margin-top: 100px;
+}
+
+h2 {
+    margin: 50px 0 10px 0;
+}
+
+h3 {
+    margin: 20px 0 5px 0;
 }
 
 footer {
-    grid-column: span 3;
-    grid-row: 3 / 4;
+background-color: rgb(243, 243, 243, 0.5);
+padding: 10px;
+margin-top: 20px;
 }
 
 .tresure {
     color: #333333;
     text-decoration: none;
+    cursor: pointer;
+    font-weight: normal;
+    color: inherit;
 }
 
-.tresure:hover{
+.tresure.found{
     font-weight: 600px;
-}
-
-.tresure:visited {
-    background-color: yellow;
+    color: red;
+    font-weight: bold;
 }
