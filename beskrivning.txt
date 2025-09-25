@@ -1,0 +1,20 @@
+Skapa tre variabler för att hålla koll på spelet:
+foundCount – hur många skatter som hittats.
+time – hur lång tid som gått.
+timer – själva timern som räknar sekunder.
+
+När sidan laddas ska följande hända:
+Hämta element för att visa antal hittade skatter och tiden (foundCountEl och timerEl).
+Starta en timer som ökar time varje sekund och visar tiden på sidan.
+Alla skatter på sidan ska ha klassen .treasure.
+Hämta alla dessa element med querySelectorAll(".treasure").
+För varje skatt: lägg till en click-eventlistener.
+
+När en skatt klickas på:
+Kontrollera att den inte redan är hittad (!treasure.classList.contains("found")).
+Markera skatten som hittad genom att lägga till klassen found.
+Öka räknaren foundCount och uppdatera texten på sidan.
+Visa ett meddelande: "Grattis! Du hittade en skatt!".
+När alla skatter har hittats:
+Stoppa timern med clearInterval(timer).
+Visa ett meddelande som berättar hur lång tid det tog att hitta alla skatter.
