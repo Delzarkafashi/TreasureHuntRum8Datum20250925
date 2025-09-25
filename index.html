@@ -9,35 +9,41 @@
   </head>
   <body>
     <header>
-      <!-- HUD -->
       <div id="hud">
         <div>Skatter hittade: <span id="foundCount">0</span>/10</div>
         <div>Tid: <span id="timer">0</span> sek</div>
       </div>
+ htmlPart
       <!-- Exempel-skatt att klicka på -->
       <p id="treasure1" style="margin-top: 80px; cursor: pointer">
         :gem: Klicka här för att hitta en skatt
       </p>
       <script src="script.js" defer></script>
-      <section>
+
+                <section>
+      <h1>Välkommen till Den Hemliga Världen av Rymdhamstrar!</h1>
         <h1>Välkommen till Den Hemliga Världen av Rymdhamstrar!</h1>
         <img src="images/hamster01_Fixed.webp" alt="Rymdhamstrar" />
         <img src="images/hamster02_Fixed.webp" alt="Rymdhamstrar" />
-        <p>
-          Har du någonsin undrat vad hamstrar gör när ingen tittar? Tänk om de
-          är intergalaktiska äventyrare? På den här sidan dyker vi ner i den
-          fascinerande världen av rymdhamstrar – små fluffiga varelser som reser
-          genom universum i nötformade rymdskepp. Låt oss utforska deras hemliga
-          liv, uppfinningar och galaktiska fester.
-        </p>
-      </section>
+      <p>
+        Har du någonsin undrat vad hamstrar gör när ingen tittar? Tänk om de är
+        intergalaktiska <span class="treasure" id="treasure1">äventyrare</span>? På den här sidan dyker vi ner i den
+        fascinerande världen av rymdhamstrar – små fluffiga varelser som reser
+        genom universum i <span class="treasure" id="treasure2">nötformade</span> rymdskepp. Låt oss utforska deras
+        <span class="treasure" id="treasure3">hemliga</span> liv,
+        <span class="treasure" id="treasure4">uppfinningar</span> och galaktiska
+        <span class="treasure" id="treasure5">fester</span>!
+      </p>
+                   </section>
+ main
     </header>
+
     <main>
       <section>
         <h2>Historien om Rymdhamstrarna</h2>
         <p>
           Allt började för miljarder år sedan, när en vanlig hamster på Jorden
-          hittade en magisk nöt som öppnade en portal till rymden. Denna
+          hittade en magisk nöt som öppnade en <span class="treasure" id="treasure6">portal</span> till rymden. Denna
           hamster, som vi kallar Hamstro den Store, blev den första
           rymdhamstern. Han byggde ett imperium av gnagande upptäcktsresande som
           nu patrullerar galaxerna på jakt efter de bästa solrosfröna.
@@ -45,13 +51,14 @@
         <p>
           I deras dagliga liv samlar de in kosmiska frön från asteroider och
           undviker svarta hål som om de vore kattungar. Visste du att
-          rymdhamstrar har uppfunnit teleportationshjul? Det är som ett vanligt
+          rymdhamstrar har uppfunnit <span class="treasure" id="treasure7">teleportationshjul</span>? Det är som ett vanligt
           hamsterhjul, men det snurrar så snabbt att det böjer tid och rum!
         </p>
         <h3>De Första Uppfinningarna</h3>
         <p>
-          En av de tidigaste uppfinningarna var Nötkanonen, en enhet som skjuter
-          nötprojektiler mot fiender som rymdkaniner. Dessa kaniner är
+          En av de tidigaste uppfinningarna var
+          <span class="treasure" id="treasure8">Nötkanonen</span>, en enhet som skjuter
+          nötprojektiler mot fiender som <span class="treasure" id="treasure9">rymdkaniner</span>. Dessa kaniner är
           rymdhamstrarnas ärkefiender, alltid ute efter att stjäla deras
           fröförråd. Men tack vare Hamstro den Stores genialitet vann hamstrarna
           slaget vid Andromedagalaxen.
@@ -76,9 +83,9 @@
         </p>
         <h3>Mat och Kost</h3>
         <p>
-          Rymdhamstrar äter inte vad som helst. Deras favorit är Kosmofrön –
-          frön som växer på planeter med dubbla solar. De undviker jordiska
-          grönsaker eftersom de saknar den extra rymddimensionen som gör dem
+          Rymdhamstrar äter inte vad som helst. Deras favorit är
+          <span class="treasure" id="treasure10">Kosmofrön</span> – frön som växer på planeter med dubbla solar. De
+          undviker jordiska grönsaker eftersom de saknar den extra rymddimensionen som gör dem
           smaskiga. En hemlig ingrediens i deras diet är månost, som de stjäl
           från månkaniner under fullmåne.
         </p>
@@ -133,6 +140,7 @@
         </p>
       </section>
     </main>
+
     <footer>
       <p>
         Utforska mer om rymdhamstrar i dina drömmar – eller bygg din egen

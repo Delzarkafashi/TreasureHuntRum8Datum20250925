@@ -1,0 +1,52 @@
+* {
+    background-color: #f3f3f3;
+    font-family: "Jersey 20", sans-serif;
+    color: #333333;
+}
+
+body {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#hud {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+header {
+    grid-column: span 3;
+    grid-row: 1 / 2;
+}
+
+main {
+    grid-column: span 3;
+    grid-row: 2 / 3 ;
+}
+
+footer {
+    grid-column: span 3;
+    grid-row: 3 / 4;
+}
+
+.tresure {
+    color: #333333;
+    text-decoration: none;
+}
+
+.tresure:hover{
+    font-weight: 600px;
+}
+
+.tresure:visited {
+    background-color: yellow;
+}
