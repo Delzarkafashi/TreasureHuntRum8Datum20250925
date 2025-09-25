@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// En enklare version utan timer och räknare
+// detta är bara focuserat på röda knappen
 document.addEventListener("DOMContentLoaded", () => {
   const treasures = document.querySelectorAll(".treasure");
 
